@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Get_User"
+           tests="1"
+           failures="0"
+           errors="0"
+           skipped="0"
+           time="2.637">
+    <properties></properties>
+
+
+
+            <testcase
+                name="validategetdata"
+                time="2.637"
+                classname="User.newcode">
+            </testcase>
+</testsuite>

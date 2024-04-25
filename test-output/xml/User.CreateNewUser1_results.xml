@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="SmokeTest"
+           tests="4"
+           failures="1"
+           errors="0"
+           skipped="0"
+           time="0.002">
+    <properties></properties>
+
+            <testcase
+                name="Create_New_use"
+                time="0.000"
+                classname="User.CreateNewUser1">
+
+            <failure type="org.testng.TestNGException" message="
+Parameter &apos;usercreationUrl&apos; is required by @Test on method Create_New_use but has not been marked @Optional or defined
+in C:\Users\sonalik\IdeaProjects\TestNG_RestAssurednew\Testfiles\smoke.xml">
+                <![CDATA[org.testng.TestNGException: 
+Parameter 'usercreationUrl' is required by @Test on method Create_New_use but has not been marked @Optional or defined
+in C:\Users\sonalik\IdeaProjects\TestNG_RestAssurednew\Testfiles\smoke.xml
+                org.testng.internal.Parameters.createParams(Parameters.java:267)org.testng.internal.Parameters.createParametersForMethod(Parameters.java:355)org.testng.internal.Parameters.createParameters(Parameters.java:693)org.testng.internal.Parameters.handleParameters(Parameters.java:888)org.testng.internal.Parameters.handleParameters(Parameters.java:737)org.testng.internal.invokers.ParameterHandler.handleParameters(ParameterHandler.java:72)org.testng.internal.invokers.ParameterHandler.createParameters(ParameterHandler.java:51)org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:915)org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:201)org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)java.base/java.util.ArrayList.forEach(ArrayList.java:1511)org.testng.TestRunner.privateRun(TestRunner.java:819)org.testng.TestRunner.run(TestRunner.java:619)org.testng.SuiteRunner.runTest(SuiteRunner.java:443)org.testng.SuiteRunner.runSequentially(SuiteRunner.java:437)org.testng.SuiteRunner.privateRun(SuiteRunner.java:397)org.testng.SuiteRunner.run(SuiteRunner.java:336)org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)org.testng.TestNG.runSuitesSequentially(TestNG.java:1301)org.testng.TestNG.runSuitesLocally(TestNG.java:1228)org.testng.TestNG.runSuites(TestNG.java:1134)org.testng.TestNG.run(TestNG.java:1101)com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:65)com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:105)
+]]>
+            </failure>
+    </testcase>
+
+
+            <testcase
+                name="createNewe2e"
+                time="0.000"
+                classname="User.CreateNewUser1">
+            </testcase>
+            <testcase
+                name="createNewSmoke"
+                time="0.001"
+                classname="User.CreateNewUser1">
+            </testcase>
+            <testcase
+                name="createNewRegression"
+                time="0.001"
+                classname="User.CreateNewUser1">
+            </testcase>
+</testsuite>

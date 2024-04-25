@@ -1,0 +1,9 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+
+<suite name="Testing regression" verbose="1" >
+    <test name="RegressionTest" >
+        <classes>
+            <class name="User.newcode" />
+        </classes>
+    </test>
+</suite>

@@ -1,0 +1,14 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+
+<suite name="Tempcheck" >
+    <test name="TempCelFer" >
+        <parameter name="url" value="https://www.w3schools.com/xml/tempconvert.asmx"></parameter>
+        <parameter name="Celcius" value="5"></parameter>
+        <parameter name="expectedferr" value="41"></parameter>
+        <classes>
+            <class name="TempCheck.TempCelFer" />
+        </classes>
+    </test>
+
+
+</suite>

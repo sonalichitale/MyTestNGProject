@@ -1,0 +1,9 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+
+<suite name="Reqres" verbose="1" >
+    <test name="List_User" >
+        <classes>
+            <class name="getuserlist.Getuser" />
+        </classes>
+    </test>
+</suite>
